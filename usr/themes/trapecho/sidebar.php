@@ -85,7 +85,7 @@
     <div class="widget">
         <h3><?php _e('友情链接'); ?></h3>
         <ul>
-            <?php Links_Plugin::output("SHOW_TEXT", 5); ?>
+            <?php Links_Plugin::output(); ?>
         </ul>
     </div>
     <?php endif; ?>

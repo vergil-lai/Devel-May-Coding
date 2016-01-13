@@ -29,6 +29,10 @@ a:hover {
   color:#888;
 }
 
+.entry-content a:link {
+      text-decoration: underline;
+}
+
 .page-header {
   padding-bottom: 5px;
 }
