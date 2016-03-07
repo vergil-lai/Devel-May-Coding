@@ -12,6 +12,13 @@
           src="http://service.t.sina.com.cn/widget/WeiboShow.php?width=0&height=350&fansRow=0&ptype=1&speed=0&skin=-1&isTitle=0&noborder=0&isWeibo=1&isFans=0&uid=<?php $this->options->weiboAccount() ?>&verifier=a57ab42b&colors=DBECFE,ffffff,555,003D79"></iframe>
     </div>
     <?php endif; ?>
+
+    <div class="widget">
+        <h3><?php _e('Projects'); ?></h3>
+        <ul>
+            <li><a href="https://packagist.org/packages/vergil-lai/node-categories" target="_blank">node-categoires</a></li>
+        </ul>
+    </div>
     
     <?php if ($this->is('post')): ?>
         <?php if (empty($this->options->sidebarBlock) || in_array('ShowRelatedPosts', $this->options->sidebarBlock)): ?>
