@@ -51,6 +51,14 @@ a:hover {
   margin-bottom:8px;
 }
 
+.post p, .post ul li {
+  line-height: 24px;
+}
+
+.post h1, .post h2, .post h3, .post h4{
+  margin: 0.8em 0 0.5em;
+}
+
 .entry-content {
   margin-bottom: 5px;
 }

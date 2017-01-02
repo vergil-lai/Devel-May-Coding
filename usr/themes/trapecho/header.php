@@ -4,6 +4,7 @@
 <meta charset="<?php $this->options->charset(); ?>" />
 <title><?php $this->archiveTitle(' &raquo; ', '', ' - '); ?><?php $this->options->title(); ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta baidu-gxt-verify-token="18bc8f7430152050bbcd657884807375">
 
 <!-- 使用url函数转换相关路径 -->
 <link rel="stylesheet" type="text/css" media="all" href="<?php $this->options->themeUrl('css/bootstrap.min.css'); ?>" />
